@@ -47,7 +47,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm install && next build",
     "start": "next start",
     "eject": "react-scripts eject",
     "format": "prettier --write .",
